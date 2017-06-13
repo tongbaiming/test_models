@@ -1,0 +1,16 @@
+<robot name="test_bar">
+  <link name="test_bar">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	<mesh><uri>file:///home/tbm/temp/test_model_3/meshes/untitled.dae</uri></mesh>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	<mesh><uri>file:///home/tbm/temp/test_model_3/meshes/untitled.dae</uri></mesh>
+      </geometry>
+    </collision>
+  </link>
+</robot>

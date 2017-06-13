@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="guidance">
+    <pose>0 0 0 0 0 0</pose>
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>file:///home/tbm/temp/test_models/models/guidance/meshes/Assembly1.stl</uri>
+          </mesh>
+				</geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

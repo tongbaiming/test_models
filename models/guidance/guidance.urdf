@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="guidance">
+  <link name="link1">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="/home/tbm/temp/test_models/models/guidance/meshes/Assembly1.stl"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+	      <mesh filename="/home/tbm/temp/test_models/models/guidance/meshes/Assembly1.stl"/>
+      </geometry>
+    </visual>
+    <inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="1"/>
+			<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+		</inertial>
+  </link>
+</robot>

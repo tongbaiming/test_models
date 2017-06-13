@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="guidance_2">
+    <pose>0 0 0 3.1415926 0 0</pose>
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>file:///home/tbm/temp/test_models/models/guidance_2/meshes/untitled2.dae</uri>
+          </mesh>
+	</geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
